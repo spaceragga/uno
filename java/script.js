@@ -7,3 +7,5 @@ console.log(4/0);
     let answer = prompt("есть ли вам 18 ?", "да");
 
     console.log(answer);
+
+    // how about changes ?
