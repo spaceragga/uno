@@ -1,11 +1,18 @@
 'use strict';
 
-console.log(4/0);
+let money = prompt("Ваш бюджет на месяц?");
+let time = prompt("Введите дату в формате YYYY-MM-DD");
 
-    // alert("Hello World!")
+let appdata = {
+    finance: 'money',
+    timeData: 'time',
+    expenses: {"first" : "second"},
+    optional: '',
+    income: '',
+    savings: false
+};
 
-    let answer = prompt("есть ли вам 18 ?", "да");
+let first = prompt("Введите обязательную статью расходов в этом месяце");
+let second = prompt("Во сколько обойдется?");
 
-    console.log(answer);
-
-    // how about changes ?
+alert(money / 30);
